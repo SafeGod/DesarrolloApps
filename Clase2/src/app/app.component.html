@@ -1,5 +1,7 @@
-<h1>Mi primera pagina {{title}}</h1>
-<input type="text" id="miId">
-<button (click)="cambiartitulo()"> Cambiar Texto</button>
+<h1 id="titulo">Lista de compras</h1>
+<input type="text" id="inputComida" placeholder="Agrega un elemento">
+<button (click)="agregar()" id="botonAgregar">Agregar</button>
+
+<ul id="Lista"></ul>
 
 <router-outlet />
