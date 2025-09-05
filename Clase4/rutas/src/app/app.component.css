@@ -7,3 +7,14 @@ h1 {
  padding-top: 40px;
  background-color: brown;
 }
+
+.nav-link.active {
+  background-color: #007bff !important;
+  color: white !important;
+  border-radius: 4px;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #ffc107 !important;
+}

@@ -1,4 +1,36 @@
 <h1>Hola mundo</h1>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/inicio">Mi Recopilatorio</a>
+    
+    <div class="navbar-nav">
+      <a class="nav-link" 
+         routerLink="/inicio" 
+         routerLinkActive="active">
+         Inicio
+      </a>
+      
+      <a class="nav-link" 
+         routerLink="/principito" 
+         routerLinkActive="active">
+         Suma
+      </a>
+      
+      <a class="nav-link" 
+         routerLink="/secundita" 
+         routerLinkActive="active">
+         Agregar o Quitar
+      </a>
+      
+      <a class="nav-link" 
+         routerLink="/tercero" 
+         routerLinkActive="active">
+         Cambiar Titulo
+      </a>
+    </div>
+  </div>
+</nav>
+
 
 <router-outlet />
